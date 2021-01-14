@@ -44,6 +44,7 @@ Links provided are the items I used.
 5. Clone this repository onto Raspberry Pi
 
 ### Setup Autorun Python Script on Reboot
+Open a terminal and type:
 ```sudo crontab -e```<br />
 ```1```<br />
 press: enter<br />
@@ -55,11 +56,11 @@ press: enter<br />
 
 ### Wiring
 See diagram below
-(/wiring.png)
+![](/wiring.png)
 
 ### Connecting the Components
 See diagram below
-(/components.png)
+![](/components.png)
 
 ## Running the System
 1. Turn source on
