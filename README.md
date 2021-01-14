@@ -44,14 +44,14 @@ Links provided are the items I used.
 5. Clone this repository onto Raspberry Pi
 
 ### Setup Autorun Python Script on Reboot
-```sudo crontab -e```
-```1```
-press: enter
-Scroll to the bottom of the file and add the following line:
-```@reboot sudo python /home/pi/Ambient-TV-Light/rgb_kmeans.pi```
-press: CTLR + X
-press: y
-press: enter
+```sudo crontab -e```<br />
+```1```<br />
+press: enter<br />
+Scroll to the bottom of the file and add the following line:<br />
+```@reboot sudo python /home/pi/Ambient-TV-Light/rgb_kmeans.py```<br />
+press: CTLR + X<br />
+press: y<br />
+press: enter<br />
 
 ### Wiring
 See diagram below
