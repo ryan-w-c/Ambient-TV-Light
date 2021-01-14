@@ -10,6 +10,8 @@ Youtube Videos:
 * [Netflix Intro](https://www.youtube.com/watch?v=6Jg_rkKtJgo)
 * [Color Wheel](https://www.youtube.com/watch?v=8u4UzzJZAUg)
 
+Uses Python, OpenCV 2, [rpi-ws281x-python](https://github.com/rpi-ws281x/rpi-ws281x-python), and code from this [StackOverflow question](https://stackoverflow.com/questions/43665208/how-to-get-the-latest-frame-from-capture-device-camera-in-opencv) to always get the current frame instead of buffer.
+
 ## Required Parts:
 Links provided are the items I used.
 
@@ -28,7 +30,7 @@ Links provided are the items I used.
   * Optional: HDMI Splitter
   * Optional: HDMI Switch
   
-* [LED Strip](https://www.amazon.com/gp/product/B01CNL6LLA/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1) _**IMPORTANT:** Ensure the power supply has the correct voltage for LED strip)_
+* [LED Strip](https://www.amazon.com/gp/product/B01CNL6LLA/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1) _**(IMPORTANT:** Ensure the power supply has the correct voltage for LED strip)_
   * [LED Power Supply](https://www.amazon.com/gp/product/B06Y64QLBM/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
   * [Male to Female Wires](https://www.amazon.com/gp/product/B01EV70C78/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
  
@@ -41,7 +43,8 @@ Links provided are the items I used.
 2. Insert Micro SD into Raspberry Pi
 3. Setup Raspberry Pi
 4. Install OpenCV 2 on Raspberry Pi
-5. Clone this repository onto Raspberry Pi
+5. Install rpi-ws281x-python
+6. Clone this repository onto Raspberry Pi
 
 ### Setup Autorun Python Script on Reboot
 Open a terminal and type:
