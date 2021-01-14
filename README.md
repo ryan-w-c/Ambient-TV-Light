@@ -3,7 +3,7 @@ Ambient light around the TV that matches the screen.
 
 ## Demo:
 
-TODO: add gif
+![](/demo.gif)
 
 Youtube Videos:
 * [Fluid](https://www.youtube.com/watch?v=qC0vDKVPCrw)
